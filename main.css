@@ -52,6 +52,7 @@ body{
 }
 .pricingPlan{
   flex: 1;
+  letter-spacing: 2px;
   height: 400px;
   margin: 20px;
   min-width: 200px;

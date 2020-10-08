@@ -33,9 +33,9 @@ body{
 }
 .menubuttons {
   text-decoration: none;
-  font-family: 'wire one,' sans-serif;
+  font-family: 'wire one',serif;
   color: var(--backuptext);
-  font-size: 16px;
+  font-size: 28px;
   padding: 12px;
   letter-spacing: 3px;;
 }
