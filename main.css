@@ -73,6 +73,7 @@ body{
   height: 70px;
   background-color: #e2bbbb;
   padding-top: 10px;
+  font-size: 40px;
 }
 .underline {
   text-align: center;
@@ -85,7 +86,7 @@ body{
   -webkit-background-size: 10% 100%;
 }
 .pricingCategory{
-  font-size: 20px;
+  font-size: 30px;
   font-weight: lighter;
   padding-left: 30px;
 }
@@ -201,6 +202,21 @@ table.blueTable {
     font-family:'wire one', serif;
     text-align: auto;
 
+  }
+
+    h2 {
+    vertical-align: top;
+    text-align:left;
+    font-size:50px;
+    font-family:'wire one', serif;
+    padding: 20px;
+
+  }
+
+  p {
+    font-size:40px;
+    font-family:'wire one', serif;
+    text-align: center;
   }
 
   .text1{
