@@ -61,7 +61,6 @@ body{
   border-radius: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #555555;
-  box-shadow: 6px 10px 50px 0px #e2bbbb;
   overflow: hidden;
 
 }
@@ -91,13 +90,30 @@ body{
   font-weight: lighter;
   padding-left: 30px;
 }
+#content1 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+     }
+
+#short_content{
+  text-align: left;
+  height: 20%;
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}    
 
 #content {
 height: 100%;
 width: 100%;
 margin-top: 100px;
 
+
     }
+    
 
     #contentkontakt {
       height: 100%;
@@ -159,7 +175,7 @@ table.blueTable {
     margin:0px;
   }
   .colour-block {
-    margin-top: 50px;
+    margin-top: 100px;
     background: var(--mainbarva);
     width:100%;
     color:var(--maintext);
@@ -182,12 +198,13 @@ table.blueTable {
 
   }
   
-  h2 {
+  h12 {
     vertical-align: top;
     text-align:left;
     font-size:50px;
     font-family:'wire one', serif;
     padding: 20px;
+    margin-top: 50px;
 
   }
 
@@ -241,12 +258,7 @@ table.blueTable {
   margin: auto;
   height: 100%;
   width: 100%;
-  /*background-image: url(laki2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-*/
+  grid-column: 2/3;
 }
 
 
@@ -263,6 +275,7 @@ table.blueTable {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  border-radius: 15px;
 }
 
 /* Next & previous buttons */
@@ -334,6 +347,7 @@ table.blueTable {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+  border-radius: 15px;
 }
 
 @-webkit-keyframes fade {
@@ -351,6 +365,12 @@ table.blueTable {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 30px;
+  box-shadow: 6px 10px 20px 0px #e2bbbb;
+
+}
+#slikce{
+  grid-column: 2/3;
 }
 
 
