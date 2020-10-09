@@ -29,8 +29,9 @@ body{
   flex-grow: 0;
   box-shadow: 6px 10px 50px 0px #e2bbbb;
   z-index: -1;
-  padding: 10px;
-  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+
 
 }
 .menubuttons {
@@ -93,7 +94,7 @@ body{
 #content1 {
   height: 100%;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: 50% 50%;
      }
@@ -199,14 +200,11 @@ table.blueTable {
   }
   
   h12 {
-    vertical-align: top;
-    text-align:left;
-    font-size:50px;
+  font-size:50px;
     font-family:'wire one', serif;
-    padding: 20px;
-    margin-top: 50px;
-
+    margin-right: auto;
   }
+
 
   p {
     font-size:40px;
@@ -259,6 +257,7 @@ table.blueTable {
   height: 100%;
   width: 100%;
   grid-column: 2/3;
+  margin-top: 150px;
 }
 
 
@@ -282,17 +281,19 @@ table.blueTable {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
   width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  margin-top: -325px;
   color: white;
   font-weight: bold;
+  padding: 200px;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+
+  
 }
+
 
 /* Position the "next button" to the right */
 .next {
