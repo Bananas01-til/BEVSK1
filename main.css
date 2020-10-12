@@ -212,17 +212,19 @@ table.blueTable {
     text-align: center;
   }
 
-  p1 {
+  .p1 {
+    width: 100%;
     padding: 20px;
     font-size:40px;
     font-family:'wire one', serif;
-    text-align: auto;
+    text-align: center;
+
 
   }
 
     h2 {
     vertical-align: top;
-    text-align:left;
+    text-align:center;
     font-size:50px;
     font-family:'wire one', serif;
     padding: 20px;
