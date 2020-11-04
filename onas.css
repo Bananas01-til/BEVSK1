@@ -122,6 +122,7 @@ h12 {
   
   /* If you want the content centered horizontally and vertically */
   .centered {
+    margin-top: 35px;
     position: absolute;
     top: 50%;
     left: 50%;
