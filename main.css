@@ -1,5 +1,5 @@
 :root {
-    --mainbarva: #EDDFE0;
+    --mainbarva: #bea2a4;
     --maintext: #000000;
     --accentcolor: #FFFFFF; 
     --backuptext: #444444;
@@ -36,11 +36,11 @@ body{
 }
 .menubuttons {
   text-decoration: none;
-  font-family: 'wire one',serif;
+  font-family: 'Josefin Sans';
   color: var(--backuptext);
   font-size: 28px;
   padding: 12px;
-  letter-spacing: 3px;;
+  letter-spacing: 2px;
 }
 .menubuttons:hover {
   border-bottom: 2px solid var(--mainbarva);
@@ -74,7 +74,7 @@ body{
   height: 70px;
   background-color: #e2bbbb;
   padding-top: 10px;
-  font-size: 40px;
+  font-size: 35px;
 }
 .underline {
   text-align: center;
@@ -87,9 +87,13 @@ body{
   -webkit-background-size: 10% 100%;
 }
 .pricingCategory{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: lighter;
   padding-left: 30px;
+}
+.Izredni{
+  font-size: 40px;
+  font-weight: lighter;
 }
 #content1 {
   height: 100%;
@@ -185,10 +189,9 @@ table.blueTable {
   }
   .colour-block {
     margin-top: 100px;
-    background: var(--mainbarva);
     width:100%;
     color:var(--maintext);
-    height: 250px;
+    height: fit-content;
 
   }
   .white-block {
@@ -196,75 +199,92 @@ table.blueTable {
     background:rgb(255, 255, 255);
     width:100%;
     color:var(--maintext);
-    height: 350px;
+    height: fit-content;
+    padding:3px;
 
   }
   h1 {
+    letter-spacing: 3px;
     vertical-align: top;
     text-align:center;
     font-size:60px;
-    font-family:'wire one', serif;
+    font-family:'Josefin Sans';
+
+  }
+
+  h4 {
+    letter-spacing: 3px;
+    vertical-align: top;
+    text-align:center;
+    font-size:60px;
+    font-family:'Josefin Sans';
 
   }
   
   h12 {
-  font-size:50px;
-    font-family:'wire one', serif;
+    font-size:40px;
+    margin-top: 10px;
+    font-family:'Josefin Sans';
     margin-right: auto;
+    font-weight: lighter;
   }
 
+  .pics{
+    transform: scale(0.3);
+
+  }
 
   p {
     font-size:40px;
-    font-family:'wire one', serif;
+    font-family:'Josefin Sans';
     text-align: center;
+    font-weight: lighter;
   }
 
-  .p1 {
-    width: 100%;
-    padding: 20px;
-    font-size:40px;
-    font-family:'wire one', serif;
-    text-align: center;
-
-
-  }
+  .p1 { font-family: 'Josefin Sans';
+        font-size: 32px;       
+        font-weight: lighter;
+        text-decoration: none;
+        line-height: 150%;
+      } 
 
     h2 {
+    letter-spacing: 3px;
+    font-weight: lighter;
     vertical-align: top;
     text-align:center;
     font-size:50px;
-    font-family:'wire one', serif;
-    padding: 20px;
+    font-family:'Josefin Sans';
   }
 
   .wack{
+    line-height: 150%;
+    font-size: 30px;
     padding: 0px;
     margin: 0px;
-    text-decoration: none;
     font-weight: lighter;
     text-align: left;
   }
 
   p {
     font-size:40px;
-    font-family:'wire one', serif;
+    font-family:'Josefin Sans';
     text-align: center;
   }
 
-  .text1{
-    display: inline;
-    font-size: 30px;
-    font-family: 'wire one', serif;
-    vertical-align: top;
-    color: #000000;
-} 
   #tel{
+    letter-spacing: 3px;
     font-size: 38px;
-    font-family: serif;
+    font-family: 'Josefin Sans';
     text-align: center;
+    font-weight: bold;
   }
-  
+  #mail{
+    font-size: 38px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    font-weight: bold;
+  }
   * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -390,6 +410,8 @@ table.blueTable {
 #slikce{
   grid-column: 2/3;
 }
+
+
 
 
   /*----------------*/
