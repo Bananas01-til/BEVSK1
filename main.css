@@ -212,6 +212,14 @@ table.blueTable {
 
   }
 
+  h3{
+    letter-spacing: 1px;
+    vertical-align: top;
+    text-align:center;
+    font-size:30px;
+    font-family:'Josefin Sans';
+  }
+
   h4 {
     letter-spacing: 3px;
     vertical-align: top;
