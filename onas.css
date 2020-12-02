@@ -51,11 +51,11 @@ border-bottom: 2px solid var(--mainbarva);
 }
 
 h12 {
-  font-size:40px;
-  margin-top: 10px;
-  font-family:'Josefin Sans';
+  font-size:50px;
+  margin-bottom: 10px;
+  font-family:'wire one', sans-serif;
   margin-right: auto;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 
@@ -121,15 +121,17 @@ h12 {
   }
   
   /* If you want the content centered horizontally and vertically */
-  .centered {
-    margin-top: 35px;
+
+  
+  .centered{
+    margin-top: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  
+
   /* Style the image inside the centered container, if needed */
   .centered img {
     width: 150px;

@@ -222,11 +222,11 @@ table.blueTable {
   }
   
   h12 {
-    font-size:40px;
-    margin-top: 10px;
-    font-family:'Josefin Sans';
+    font-size:50px;
+    margin-bottom: 10px;
+    font-family:'wire one', sans-serif;
     margin-right: auto;
-    font-weight: lighter;
+    font-weight: bold;
   }
 
   .pics{
@@ -311,7 +311,8 @@ table.blueTable {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  border-radius: 15px;
+  border-radius: 0px;
+  margin-bottom: 50px;
 }
 
 /* Next & previous buttons */
