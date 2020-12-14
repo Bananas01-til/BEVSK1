@@ -73,15 +73,14 @@ body{
 
 }
 .pricingTitle{
-  font-size: 4vh;
+  font-size: 25px;
   text-align: center;
   padding: 0px;
   margin: 0px;
   font-weight: bold;
   height: 70px;
   background-color: #e2bbbb;
-  padding-top: 10px;
-  font-size: 35px;
+  padding-top: 15px;
 }
 .underline {
   text-align: center;
@@ -89,14 +88,13 @@ body{
   width: 100%;
   height: 25px;
   margin: 0px;
-  margin-bottom: 50px;
   background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#e2bbbb), color-stop(0.49, #e2bbbb), color-stop(0.51, #fff), to(white));
   -webkit-background-size: 10% 100%;
 }
 .pricingCategory{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: lighter;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 .Izredni{
   font-size: 40px;
@@ -113,7 +111,7 @@ body{
 #short_content{
   text-align: left;
   margin-top: 75px;
-  margin-left: 75px ;
+  margin-left: 15px ;
   height: fit-content;
   width: fit-content;
   grid-column: 1/2;
