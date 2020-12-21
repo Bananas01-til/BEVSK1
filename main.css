@@ -58,6 +58,7 @@ body{
   display: flex;
   flex-direction: row;
 }
+
 .pricingPlan{
   flex: 1;
   letter-spacing: 2px;
@@ -89,15 +90,15 @@ body{
   height: 25px;
   margin: 0px;
   background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#e2bbbb), color-stop(0.49, #e2bbbb), color-stop(0.51, #fff), to(white));
-  -webkit-background-size: 10% 100%;
+  -webkit-background-size: 5% 100%;
 }
 .pricingCategory{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: lighter;
   padding-left: 10px;
 }
 .Izredni{
-  font-size: 40px;
+  font-size: 25px;
   font-weight: lighter;
 }
 #content1 {
