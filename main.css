@@ -332,7 +332,7 @@ table.blueTable {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   margin-top: -350px;
   color: white;
   font-weight: bold;
